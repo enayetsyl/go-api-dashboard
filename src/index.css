@@ -1,0 +1,11 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    
+    .back-card {
+        @apply p-5 text-white bg-baseCard rounded-lg;
+      }
+      .front-card {
+        @apply p-5 text-white bg-frontCard rounded-lg;
+      }
